@@ -36,6 +36,11 @@ export const TRUST_ITEMS = [
   },
 ]
 
+export const IMAGES = {
+  hero: 'https://images.unsplash.com/photo-1759848637971-6d53c994a1f9?w=1920&q=85',
+  about: 'https://images.unsplash.com/photo-1672748341520-6a839e6c05bb?w=700&q=80',
+}
+
 export const PRESTATIONS = [
   {
     id: 'charpente',
@@ -43,7 +48,7 @@ export const PRESTATIONS = [
     icon: 'fa-hammer',
     description:
       'Construction, rénovation et réparation de charpente bois. Structures traditionnelles et fermettes industrielles, adaptées à votre projet.',
-    image: 'https://images.unsplash.com/photo-1504307651254-35680f356dfd?w=600&q=80',
+    image: 'https://images.unsplash.com/photo-1676802540678-2dceb1820113?w=600&q=80',
   },
   {
     id: 'toiture',
@@ -51,7 +56,7 @@ export const PRESTATIONS = [
     icon: 'fa-house-chimney',
     description:
       'Pose et réfection complète : tuiles, ardoises, bac acier. Réparation de fuites, nettoyage, hydrofuge et démoussage professionnel.',
-    image: 'https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=600&q=80',
+    image: 'https://images.unsplash.com/photo-1774538410784-2a2b52fb6999?w=600&q=80',
   },
   {
     id: 'zinguerie',
@@ -59,7 +64,7 @@ export const PRESTATIONS = [
     icon: 'fa-droplet',
     description:
       'Gouttières, faîtages, noues et chéneaux. Installation et réparation en zinc, cuivre ou PVC pour une étanchéité parfaite.',
-    image: 'https://images.unsplash.com/photo-1565536421961-1a6eb3098ffc?w=600&q=80',
+    image: 'https://images.unsplash.com/photo-1518736346281-76873166a64a?w=600&q=80',
   },
   {
     id: 'isolation',
@@ -67,40 +72,40 @@ export const PRESTATIONS = [
     icon: 'fa-temperature-low',
     description:
       'Isolation des combles et sous-toiture, étanchéité à l\'air et protection thermique. Réduisez vos dépenses énergétiques durablement.',
-    image: 'https://images.unsplash.com/photo-1581092580497-e0d23cbdf1dc?w=600&q=80',
+    image: 'https://images.unsplash.com/photo-1600877841955-af3c51dac2fe?w=600&q=80',
   },
 ]
 
 export const GALLERY_ITEMS = [
   {
-    src: 'https://images.unsplash.com/photo-1632178050091-84e558738d45?w=800&q=80',
-    srcFull: 'https://images.unsplash.com/photo-1632178050091-84e558738d45?w=1400&q=85',
+    src: 'https://images.unsplash.com/photo-1633759593085-1eaeb724fc88?w=800&q=80',
+    srcFull: 'https://images.unsplash.com/photo-1633759593085-1eaeb724fc88?w=1400&q=85',
     caption: 'Réfection complète de toiture',
     tall: true,
   },
   {
-    src: 'https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=600&q=80',
-    srcFull: 'https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=1400&q=85',
+    src: 'https://images.unsplash.com/photo-1774538410784-2a2b52fb6999?w=600&q=80',
+    srcFull: 'https://images.unsplash.com/photo-1774538410784-2a2b52fb6999?w=1400&q=85',
     caption: 'Pose de tuiles canal',
   },
   {
-    src: 'https://images.unsplash.com/photo-1504307651254-35680f356dfd?w=600&q=80',
-    srcFull: 'https://images.unsplash.com/photo-1504307651254-35680f356dfd?w=1400&q=85',
+    src: 'https://images.unsplash.com/photo-1676802540678-2dceb1820113?w=600&q=80',
+    srcFull: 'https://images.unsplash.com/photo-1676802540678-2dceb1820113?w=1400&q=85',
     caption: 'Charpente traditionnelle',
   },
   {
-    src: 'https://images.unsplash.com/photo-1565536421961-1a6eb3098ffc?w=600&q=80',
-    srcFull: 'https://images.unsplash.com/photo-1565536421961-1a6eb3098ffc?w=1400&q=85',
-    caption: 'Zinguerie cuivre',
+    src: 'https://images.unsplash.com/photo-1580642866497-dde93c97492b?w=600&q=80',
+    srcFull: 'https://images.unsplash.com/photo-1580642866497-dde93c97492b?w=1400&q=85',
+    caption: 'Fenêtres de toit et velux',
   },
   {
-    src: 'https://images.unsplash.com/photo-1597766658232-024f1c7e5667?w=600&q=80',
-    srcFull: 'https://images.unsplash.com/photo-1597766658232-024f1c7e5667?w=1400&q=85',
-    caption: 'Toiture ardoise',
+    src: 'https://images.unsplash.com/photo-1602193230480-7840a38eb0c3?w=600&q=80',
+    srcFull: 'https://images.unsplash.com/photo-1602193230480-7840a38eb0c3?w=1400&q=85',
+    caption: 'Zinguerie et étanchéité',
   },
   {
-    src: 'https://images.unsplash.com/photo-1600585154340-be6161a56a0c?w=600&q=80',
-    srcFull: 'https://images.unsplash.com/photo-1600585154340-be6161a56a0c?w=1400&q=85',
+    src: 'https://images.unsplash.com/photo-1600612707884-c424a2ba812e?w=600&q=80',
+    srcFull: 'https://images.unsplash.com/photo-1600612707884-c424a2ba812e?w=1400&q=85',
     caption: 'Rénovation villa',
   },
 ]

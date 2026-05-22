@@ -1,5 +1,5 @@
 import { motion } from 'framer-motion'
-import { COMPANY } from '../data/siteData'
+import { COMPANY, IMAGES } from '../data/siteData'
 
 export default function Hero() {
   return (
@@ -7,7 +7,7 @@ export default function Hero() {
       {/* Background */}
       <div
         className="absolute inset-0 bg-cover bg-[center_30%] animate-hero-zoom"
-        style={{ backgroundImage: "url('https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=1920&q=85')" }}
+        style={{ backgroundImage: `url('${IMAGES.hero}')` }}
       />
       <div className="absolute inset-0 bg-gradient-to-br from-[rgba(26,31,43,0.88)] via-[rgba(44,51,64,0.72)] to-[rgba(26,31,43,0.82)]" />
 

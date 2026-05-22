@@ -1,5 +1,6 @@
 import { motion } from 'framer-motion'
 import { useReveal } from '../hooks/useScrollReveal'
+import { IMAGES } from '../data/siteData'
 
 const CHECKS = [
   'Garantie décennale sur tous les chantiers',
@@ -27,7 +28,7 @@ export default function About() {
           >
             <div className="rounded-2xl overflow-hidden shadow-2xl">
               <img
-                src="https://images.unsplash.com/photo-1601924582970-9238bcb495d9?w=700&q=80"
+                src={IMAGES.about}
                 alt="Teddy Bracquemart — Artisan couvreur JTB Toiture"
                 className="w-full h-[360px] lg:h-[520px] object-cover"
                 loading="lazy"
